@@ -10,4 +10,5 @@ DAGON: https://en.wikipedia.org/wiki/Dagon_(short_story)
 # Usage
 
 source("~/DRAGON.R")
-source("~/DRAGON_adpt.R")
+
+source("~/DRAGON_adap.R")
