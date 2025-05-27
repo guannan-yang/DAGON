@@ -1,5 +1,5 @@
 # DAGON
-R Implementation of p-value calculation for DRAGON pipeline from R package netZooR
+R Implementation of p-value calculation (and selection) for DRAGON pipeline from R package netZooR
 
 netZooR: https://github.com/netZoo/netZooR/tree/master
 
