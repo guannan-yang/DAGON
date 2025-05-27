@@ -6,3 +6,8 @@ netZooR: https://github.com/netZoo/netZooR/tree/master
 DRAGON paper: https://pubmed.ncbi.nlm.nih.gov/36533448/
 
 DAGON: https://en.wikipedia.org/wiki/Dagon_(short_story)
+
+# Usage
+
+source("~/DRAGON.R")
+source("~/DRAGON_adpt.R")
