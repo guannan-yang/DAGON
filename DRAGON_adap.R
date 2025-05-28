@@ -1,9 +1,9 @@
 # -------------------------------------------------------------------------
 #  DRAGON   (Dependence Relationship And Grouping Of Networks)   –  R PORT
 #  -----------------------------------------------------------------------
-#  • Maintains the original NetZooR pipeline for penalty selection and
+#  • The original NetZooR pipeline for penalty selection and
 #    shrunken covariance / precision / partial‑correlation generation.
-#  • Adds a **faithful translation** of the Python kappa–based p‑value
+#  • Adds a translation of the Python kappa–based p‑value
 #    system, including:  estimate_kappa(), estimate_kappa_dragon(), and
 #    estimate_p_values_dragon().
 #  • dragon() now supports   pval = TRUE   to return   p_raw / p_adj
@@ -200,6 +200,7 @@ estimate_p_values_dragon <- function(r, n, p1, p2, lambdas,
 #' @param simultaneous logical – fit kappa parameters jointly? (default FALSE)
 #' @param seed RNG seed
 #' @param adj_method multiple‑testing adjustment (default "BH")
+#' @param fdr FDR threshold for p‑value adjustment (default 0.1)
 #' @return list   cov, prec, ggm, lambdas, gammas, risk_grid, p_raw, p_adj
 #' @export
 
